@@ -27,19 +27,79 @@ The landscape of multimedia is undergoing a paradigm shift driven by the converg
 | **Shiqi Wang** | City University of Hong Kong | shiqwang@cityu.edu.hk |
 | **Chuanmin Jia** | Peking University | cmjia@pku.edu.cn |
 | **Qi Mao** | Communication University of China | qimao@cuc.edu.cn |
-| **Zhimeng Huang** | Peking University | huangzm@pku.edu.cn |
+| **Zhimeng Huang** | Peking University | zmhuang@pku.edu.cn |
 
 ---
 
-## 🔹 Motivation
+## 🔹 Organizer Biographies
 
-Modern multimedia systems increasingly rely on **large models** to interpret, synthesize, and reason about multimodal content. However, current coding frameworks primarily transmit **raw visual signals**, leading to:
+<div style="display: flex; flex-direction: column; gap: 35px;">
 
-- High redundancy  
-- Mismatch with downstream model inference  
-- Inefficiency in multi-agent or edge–cloud scenarios  
+<!-- Organizer 1 -->
+<div style="display: flex; align-items: flex-start; gap: 20px;">
+  <img src="img/shiqi_wang.jpg" alt="Shiqi Wang" style="width:150px; border-radius: 6px;">
+  <div style="flex:1;">
+    <h3 style="margin-top: 0;">Prof. Shiqi Wang</h3>
+    <p style="font-size: 15px; line-height: 1.6;">
+      Shiqi Wang (City University of Hong Kong) is a Professor at the Department of Computer Science, 
+      City University of Hong Kong. He received his Ph.D. from Peking University in 2014. 
+      An active contributor to standardization, he has proposed over 70 technical proposals to ISO/MPEG, ITU-T, and AVS. 
+      He has authored more than 400 refereed papers, including over 100 in IEEE Transactions. 
+      His research spans semantic/visual communication, AI-generated content (AIGC) management, 
+      and image/video quality assessment. Dr. Wang is a recipient of multiple Best Paper Awards 
+      (IEEE VCIP 2019, ICME 2019, IEEE Multimedia 2018, PCM 2017) and the IEEE ICIP 2018 Best Student Paper Award. 
+      He serves/served as an Associate Editor for IEEE TCSVT, TMM, TIP, and TCYB, and notably served as 
+      the TPC Chair of ICME 2024.
+    </p>
+  </div>
+</div>
 
-This session brings together researchers to rethink multimedia coding by leveraging **semantic priors**, **token-based representations**, **generative models**, and **agentic control mechanisms**.
+<!-- Organizer 2 -->
+<div style="display: flex; align-items: flex-start; gap: 20px;">
+  <img src="img/chuanmin_jia.jpg" alt="Chuanmin Jia" style="width:150px; border-radius: 6px;">
+  <div style="flex:1;">
+    <h3 style="margin-top: 0;">Dr. Chuanmin Jia</h3>
+    <p style="font-size: 15px; line-height: 1.6;">
+      Chuanmin Jia (Peking University) is a Research Professor at the Digital Video Coding National Engineering 
+      Research Center, Peking University. His research interests include image/video compression, 
+      perceptual optimization, and multimedia systems. He has published extensively in IEEE Transactions 
+      and top-tier conferences, and contributed actively to the AVS standardization efforts. 
+      His work focuses on advancing human perception–aligned coding and practical multimedia applications in 
+      large-scale systems.
+    </p>
+  </div>
+</div>
+
+<!-- Organizer 3 -->
+<div style="display: flex; align-items: flex-start; gap: 20px;">
+  <img src="img/qi_mao.jpg" alt="Qi Mao" style="width:150px; border-radius: 6px;">
+  <div style="flex:1;">
+    <h3 style="margin-top: 0;">Prof. Qi Mao</h3>
+    <p style="font-size: 15px; line-height: 1.6;">
+      Qi Mao (Communication University of China) is a Professor at the School of Information and Communication Engineering.
+      His research includes video coding, media representation, AI-based media analysis, and next-generation broadcasting technologies.
+      He has led multiple national research projects and published widely in IEEE Transactions and ACM multimedia venues.
+      Prof. Mao has also established strong collaborations with China's broadcasting industry through influential applied research.
+    </p>
+  </div>
+</div>
+
+<!-- Organizer 4 -->
+<div style="display: flex; align-items: flex-start; gap: 20px;">
+  <img src="img/zhimeng_huang.jpg" alt="Zhimeng Huang" style="width:150px; border-radius: 6px;">
+  <div style="flex:1;">
+    <h3 style="margin-top: 0;">Dr. Zhimeng Huang</h3>
+    <p style="font-size: 15px; line-height: 1.6;">
+      Zhimeng Huang is a Boya Postdoctoral Fellow at the Department of Computer Science, Peking University, 
+      where he also received his Ph.D. in 2024. His research focuses on image/video compression, coding for machine, 
+      and machine learning. He has contributed significantly to community standards, submitting over 20 proposals 
+      to ISO/MPEG and AVS. Dr. Huang has authored or co-authored over 20 papers in top-tier journals and 
+      conferences including IEEE TIP/TCSVT, CVPR and AAAI.
+    </p>
+  </div>
+</div>
+
+</div>
 
 ---
 
