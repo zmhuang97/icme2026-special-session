@@ -105,22 +105,15 @@ The landscape of multimedia is undergoing a paradigm shift driven by the converg
 
 ---
 
-## 🔹 Important Dates (Tentative)
+## 🔹 Important Dates (Updated)
 
 | Event | Date |
-|-------|------|
-| Paper Submission Deadline | Jan 2026 |
-| Notification | March 2026 |
-| Camera-Ready | April 2026 |
-| Conference | July 2026 |
+|-------|-------|
+| Regular Paper Submissions (including Special Sessions and Industry Papers) | **12 December 2025** |
+| Author Rebuttal Starts | **22 February 2026** |
+| Author Rebuttal Ends | **26 February 2026** |
+| Regular Paper Acceptance Notification | **13 March 2026** |
 
----
-
-## 🔹 Contact
-
-For inquiries, please contact:  
-📧 **[Your Email Here]**  
-🌐 **ICME 2026 Website:** https://2026.ieeeicme.org/
 
 ---
 
