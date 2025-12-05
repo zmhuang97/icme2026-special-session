@@ -41,7 +41,7 @@ The landscape of multimedia is undergoing a paradigm shift driven by the converg
   <div style="flex:1;">
     <h3 style="margin-top: 0;">Prof. Shiqi Wang</h3>
     <p style="font-size: 15px; line-height: 1.6;">
-      Shiqi Wang (City University of Hong Kong) is a Professor at the Department of Computer Science, 
+      Shiqi Wang is a Professor at the Department of Computer Science, 
       City University of Hong Kong. He received his Ph.D. from Peking University in 2014. 
       An active contributor to standardization, he has proposed over 70 technical proposals to ISO/MPEG, ITU-T, and AVS. 
       He has authored more than 400 refereed papers, including over 100 in IEEE Transactions. 
@@ -60,7 +60,7 @@ The landscape of multimedia is undergoing a paradigm shift driven by the converg
   <div style="flex:1;">
     <h3 style="margin-top: 0;">Dr. Chuanmin Jia</h3>
     <p style="font-size: 15px; line-height: 1.6;">
-      Chuanmin Jia (Peking University) is a Research Professor at the Digital Video Coding National Engineering 
+      Chuanmin Jia is a Research Professor at the Digital Video Coding National Engineering 
       Research Center, Peking University. His research interests include image/video compression, 
       perceptual optimization, and multimedia systems. He has published extensively in IEEE Transactions 
       and top-tier conferences, and contributed actively to the AVS standardization efforts. 
@@ -76,7 +76,7 @@ The landscape of multimedia is undergoing a paradigm shift driven by the converg
   <div style="flex:1;">
     <h3 style="margin-top: 0;">Prof. Qi Mao</h3>
     <p style="font-size: 15px; line-height: 1.6;">
-      Qi Mao (Communication University of China) is a Professor at the School of Information and Communication Engineering.
+      Qi Mao is a Professor at the School of Information and Communication Engineering.
       His research includes video coding, media representation, AI-based media analysis, and next-generation broadcasting technologies.
       He has led multiple national research projects and published widely in IEEE Transactions and ACM multimedia venues.
       Prof. Mao has also established strong collaborations with China's broadcasting industry through influential applied research.
