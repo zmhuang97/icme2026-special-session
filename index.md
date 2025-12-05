@@ -124,7 +124,7 @@ All accepted papers will appear in the ICME 2026 proceedings.
 </div>
 
 <div style="margin-top:12px;">
-<a href="https://2026.ieeeicme.org/" target="_blank"
+<a href="https://cmt3.research.microsoft.com/IEEEICME2026/" target="_blank"
    style="background:#0057B8; color:#ffffff; padding:8px 16px; border-radius:6px; text-decoration:none; font-size:15px;">
   🔗 ICME 2026 Submission Website
 </a>
