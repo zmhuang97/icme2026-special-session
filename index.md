@@ -1,3 +1,7 @@
+<style>
+header.site-header { display: none !important; }
+</style>
+
 <div style="width:100%; text-align:center; margin-bottom:20px;">
   <img src="icme26-bg-02-combined-01-1-scaled.webp" 
        alt="ICME 2026 Banner" 
