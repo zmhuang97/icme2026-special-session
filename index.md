@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Call for Papers for ICME 2026 Special Session
+title: "Call for Papers · ICME 2026 Special Session"
 ---
+
 
 <div style="width:100%; text-align:center; margin-bottom:20px;">
   <img src="icme26-bg-02-combined-01-1-scaled.webp" 
