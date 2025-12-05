@@ -1,6 +1,6 @@
 ---
 layout: default
-title: ICME 2026 Special Session
+title: Call for Papers for ICME 2026 Special Session
 ---
 
 <div style="width:100%; text-align:center; margin-bottom:20px;">
