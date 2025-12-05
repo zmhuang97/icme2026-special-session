@@ -105,11 +105,11 @@ The landscape of multimedia is undergoing a paradigm shift driven by the converg
 
 ---
 
-## 🔹 Important Dates (Updated)
+## 🔹 Important Dates
 
 | Event | Date |
 |-------|-------|
-| Regular Paper Submissions (including Special Sessions and Industry Papers) | **12 December 2025** |
+| Paper Submissions | **12 December 2025** |
 | Author Rebuttal Starts | **22 February 2026** |
 | Author Rebuttal Ends | **26 February 2026** |
 | Regular Paper Acceptance Notification | **13 March 2026** |
