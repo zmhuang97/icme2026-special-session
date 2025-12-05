@@ -4,7 +4,7 @@ layout: default
 ---
 
 # <span style="color:#0057B8;">ICME 2026 Special Session</span>  
-## <span style="color:#333;">[Your Session Title Here]</span>
+## <span style="color:#333;">Generative AI and Agents for Multimedia Coding, Processing, and Evaluation</span>
 
 ---
 
