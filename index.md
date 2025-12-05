@@ -37,7 +37,7 @@ The landscape of multimedia is undergoing a paradigm shift driven by the converg
 
 <!-- Organizer 1 -->
 <div style="display: flex; align-items: flex-start; gap: 20px;">
-  <img src="img/shiqi_wang.jpg" alt="Shiqi Wang" style="width:150px; border-radius: 6px;">
+  <img src="sqwang.png" alt="Shiqi Wang" style="width:150px; border-radius: 6px;">
   <div style="flex:1;">
     <h3 style="margin-top: 0;">Prof. Shiqi Wang</h3>
     <p style="font-size: 15px; line-height: 1.6;">
@@ -56,7 +56,7 @@ The landscape of multimedia is undergoing a paradigm shift driven by the converg
 
 <!-- Organizer 2 -->
 <div style="display: flex; align-items: flex-start; gap: 20px;">
-  <img src="img/chuanmin_jia.jpg" alt="Chuanmin Jia" style="width:150px; border-radius: 6px;">
+  <img src="cmjia.png" alt="Chuanmin Jia" style="width:150px; border-radius: 6px;">
   <div style="flex:1;">
     <h3 style="margin-top: 0;">Dr. Chuanmin Jia</h3>
     <p style="font-size: 15px; line-height: 1.6;">
@@ -72,7 +72,7 @@ The landscape of multimedia is undergoing a paradigm shift driven by the converg
 
 <!-- Organizer 3 -->
 <div style="display: flex; align-items: flex-start; gap: 20px;">
-  <img src="img/qi_mao.jpg" alt="Qi Mao" style="width:150px; border-radius: 6px;">
+  <img src="qmao.png" alt="Qi Mao" style="width:150px; border-radius: 6px;">
   <div style="flex:1;">
     <h3 style="margin-top: 0;">Prof. Qi Mao</h3>
     <p style="font-size: 15px; line-height: 1.6;">
@@ -86,7 +86,7 @@ The landscape of multimedia is undergoing a paradigm shift driven by the converg
 
 <!-- Organizer 4 -->
 <div style="display: flex; align-items: flex-start; gap: 20px;">
-  <img src="img/zhimeng_huang.jpg" alt="Zhimeng Huang" style="width:150px; border-radius: 6px;">
+  <img src="zmhuang.png" alt="Zhimeng Huang" style="width:150px; border-radius: 6px;">
   <div style="flex:1;">
     <h3 style="margin-top: 0;">Dr. Zhimeng Huang</h3>
     <p style="font-size: 15px; line-height: 1.6;">
