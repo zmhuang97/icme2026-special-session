@@ -1,3 +1,9 @@
+<div style="width:100%; text-align:center; margin-bottom:20px;">
+  <img src="icme2026-banner.webp" 
+       alt="ICME 2026 Banner" 
+       style="width:100%; max-width:1400px; border-radius:6px;">
+</div>
+
 # <span style="color:#0057B8;">ICME 2026 Special Session</span>  
 ## <span style="color:#333;">Generative AI and Agents for Multimedia Coding, Processing, and Evaluation</span>
 ---
