@@ -1,5 +1,5 @@
 <div style="width:100%; text-align:center; margin-bottom:20px;">
-  <img src="icme2026-banner.webp" 
+  <img src="icme26-bg-02-combined-01-1-scaled.webp" 
        alt="ICME 2026 Banner" 
        style="width:100%; max-width:1400px; border-radius:6px;">
 </div>
