@@ -107,11 +107,22 @@ The landscape of multimedia is undergoing a paradigm shift driven by the converg
 
 ## 🔹 Important Dates
 
-<div style="background: #f2f7ff; padding: 16px 20px; border-left: 4px solid #0057B8; border-radius: 6px; font-size: 16px; line-height: 1.6;">
+<div style="background: #f2f7ff; padding: 16px 22px; border-left: 4px solid #0057B8; border-radius: 6px; font-size: 16px;">
 
-📅 <b>Paper Submissions (Regular, Special Sessions & Industry):</b> <strong>12 December 2025</strong>  
-💬 <b>Author Rebuttal Period:</b> <strong>22 – 26 February 2026</strong>  
-📢 <b>Regular Paper Acceptance Notification:</b> <strong>13 March 2026</strong>
+<table style="border-collapse: collapse; width: 100%; line-height: 1.65;">
+  <tr>
+    <td style="padding: 4px 0; white-space: nowrap;">📅 <b>Paper Submission</b></td>
+    <td style="padding: 4px 0;"><strong>12 December 2025</strong></td>
+  </tr>
+  <tr>
+    <td style="padding: 4px 0; white-space: nowrap;">💬 <b>Author Rebuttal Period</b></td>
+    <td style="padding: 4px 0;"><strong>22 – 26 February 2026</strong></td>
+  </tr>
+  <tr>
+    <td style="padding: 4px 0; white-space: nowrap;">📢 <b>Acceptance Notification</b></td>
+    <td style="padding: 4px 0;"><strong>13 March 2026</strong></td>
+  </tr>
+</table>
 
 </div>
 
