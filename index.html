@@ -72,27 +72,6 @@
       font-size: 15px;
     }
 
-    /* language switch */
-    .lang-switch {
-      text-align: right;
-      margin-bottom: 10px;
-    }
-    .lang-btn {
-      border: 1px solid #d0d4e5;
-      background: #ffffff;
-      color: #444;
-      padding: 4px 10px;
-      font-size: 13px;
-      border-radius: 999px;
-      cursor: pointer;
-      margin-left: 6px;
-    }
-    .lang-btn.active {
-      background: var(--icme-blue);
-      color: #ffffff;
-      border-color: var(--icme-blue);
-      font-weight: 600;
-    }
   </style>
 </head>
 <body>
@@ -105,479 +84,232 @@
 
   <div class="card">
 
-    <!-- 语言切换按钮 -->
-    <div class="lang-switch">
-      <button class="lang-btn active" id="btn-en" onclick="switchLang('en')">EN</button>
-      <button class="lang-btn" id="btn-zh" onclick="switchLang('zh')">中文</button>
+    <!-- 强化主标题区域 -->
+    <div style="text-align:center; margin-bottom:26px;">
+
+      <!-- 蓝色 CP Tag -->
+      <div style="
+        font-size:15px;
+        text-transform:uppercase;
+        letter-spacing:0.12em;
+        color:#0057B8;
+        font-weight:700;
+        margin-bottom:10px;">
+        Call for Papers · ICME 2026 Special Session
+      </div>
+
+      <!-- 主标题 -->
+      <div style="
+        font-size:28px;
+        font-weight:800;
+        line-height:1.25;
+        color:#222;
+        margin-bottom:12px;">
+        Generative AI and Agents for<br>
+        Multimedia Coding, Processing, and Evaluation
+      </div>
+
+      <!-- 蓝色视觉条 -->
+      <div style="
+        width:90px; height:3px;
+        background:#0057B8;
+        margin:12px auto 0 auto;
+        border-radius:2px;"></div>
     </div>
 
-    <!-- ================= EN CONTENT ================= -->
-    <div id="content-en">
 
-      <!-- 🔥 强化主标题区域 -->
-      <div style="text-align:center; margin-bottom:26px;">
-
-        <!-- 蓝色 CP Tag -->
-        <div style="
-          font-size:15px;
-          text-transform:uppercase;
-          letter-spacing:0.12em;
-          color:#0057B8;
-          font-weight:700;
-          margin-bottom:10px;">
-          Call for Papers · ICME 2026 Special Session
-        </div>
-
-        <!-- 主标题 -->
-        <div style="
-          font-size:28px;
-          font-weight:800;
-          line-height:1.25;
-          color:#222;
-          margin-bottom:12px;">
-          Generative AI and Agents for<br>
-          Multimedia Coding, Processing, and Evaluation
-        </div>
-
-        <!-- 蓝色视觉条 -->
-        <div style="
-          width:90px; height:3px;
-          background:#0057B8;
-          margin:12px auto 0 auto;
-          border-radius:2px;"></div>
-      </div>
-
-
-      <!-- 顶部 CFP 黄色卡片 -->
+    <!-- 顶部 CFP 黄色卡片 -->
+    <div style="
+      background:#fff3cd;
+      border-left:4px solid #ffca2c;
+      padding:16px 20px;
+      border-radius:6px;
+      margin-bottom:28px;">
+      
       <div style="
-        background:#fff3cd;
-        border-left:4px solid #ffca2c;
-        padding:16px 20px;
-        border-radius:6px;
-        margin-bottom:28px;">
-        
-        <div style="
-          font-size:18px;
-          font-weight:700;
-          color:#664d03;
-          margin-bottom:6px;">
-          📣 Call for Papers
-        </div>
-
-        <div style="font-size:15px; color:#4f4f4f; line-height:1.65;">
-          We invite high-quality submissions to the ICME 2026 Special Session on 
-          <b>Generative AI and Agents for Multimedia Coding, Processing, and Evaluation</b>.
-          Papers may address generative model–aware compression, agentic multimedia systems,
-          efficient multimodal representations, and evaluation methodologies.  
-          All accepted papers will appear in the ICME 2026 proceedings.
-        </div>
-
+        font-size:18px;
+        font-weight:700;
+        color:#664d03;
+        margin-bottom:6px;">
+        📣 Call for Papers
       </div>
 
-
-      <!-- Overview -->
-      <h2>🔹 Overview</h2>
-      <p>
-        The landscape of multimedia is undergoing a paradigm shift driven by the convergence of
-        Generative AI (e.g., diffusion models, autoregressive LLMs) and Agentic Systems
-        (e.g., tool-using, planning, multi-agent collaboration). These technologies are reshaping
-        visual data compression, processing, and evaluation. Traditional signal processing is evolving
-        toward model-centric paradigms, where large models act as priors for ultra-low bitrate coding
-        and enable autonomous workflow orchestration. This session explores how to bridge the gap
-        between generative intelligence and practical multimedia systems.
-      </p>
-
-      <hr>
-
-
-      <!-- Topics -->
-      <h2>🔹 Topics of Interest</h2>
-      <p><b>Representative topics include, but are not limited to:</b></p>
-      <ul>
-        <li><b>Generative Coding &amp; Processing</b>: diffusion/LLM-driven reconstruction, enhancement, compression.</li>
-        <li><b>Agentic Media Workflows</b>: multi-agent generation, autonomous pipelines, tool-oriented media systems.</li>
-        <li><b>Efficient Representations</b>: semantics-aware tokens, prompt optimization, cross-modal embeddings.</li>
-        <li><b>Evaluation &amp; Benchmarking</b>: perceptual metrics, controllability, safety of AI-generated content.</li>
-      </ul>
-
-      <hr>
-
-
-      <!-- Organizers -->
-      <h2>🔹 Organizers</h2>
-      <table>
-        <tr><th>Name</th><th>Affiliation</th><th>Email</th></tr>
-        <tr><td><b>Shiqi Wang</b></td><td>City University of Hong Kong</td><td>shiqwang@cityu.edu.hk</td></tr>
-        <tr><td><b>Chuanmin Jia</b></td><td>Peking University</td><td>cmjia@pku.edu.cn</td></tr>
-        <tr><td><b>Qi Mao</b></td><td>Communication University of China</td><td>qimao@cuc.edu.cn</td></tr>
-        <tr><td><b>Zhimeng Huang</b></td><td>Peking University</td><td>zmhuang@pku.edu.cn</td></tr>
-      </table>
-
-      <h2>🔹 Organizer Biographies</h2>
-
-      <div class="bios-wrap">
-
-        <!-- bio 1 -->
-        <div class="bio-item">
-          <img src="sqwang.png" alt="Shiqi Wang">
-          <div>
-            <h3>Prof. Shiqi Wang</h3>
-            <p>
-              Shiqi Wang (Senior Member, IEEE) is a Professor at the Department of Computer Science, City University of Hong Kong. 
-              He received his Ph.D. from Peking University in 2014. An active contributor to standardization, he has proposed over 70 technical proposals to ISO/MPEG, ITU-T, and AVS. 
-              He has authored more than 400 refereed papers, including over 100 in IEEE Transactions. His research spans semantic/visual communication, AI-generated content (AIGC) management, and image/video quality assessment. 
-              Prof. Wang is a recipient of multiple Best Paper Awards (IEEE VCIP 2019, ICME 2019, IEEE Multimedia 2018, PCM 2017) and the IEEE ICIP 2018 Best Student Paper Award. 
-              He serves/served as an Associate Editor for IEEE TCSVT, TMM, TIP, and TCYB, and notably served as the TPC Chair of ICME 2024.
-            </p>
-          </div>
-        </div>
-
-        <!-- bio 2 -->
-        <div class="bio-item">
-          <img src="cmjia.png" alt="Chuanmin Jia">
-          <div>
-            <h3>Prof. Chuanmin Jia</h3>
-            <p>
-              Chuanmin Jia (Member, IEEE) is currently a tenure-track Assistant Professor at Wangxuan Institute of Computer Technology, Peking University. 
-              His research interests include intelligent video compression and processing. 
-              He is the recipient of the ACM SIGMM China Rising Star, Best Paper Award of PCM 2017 and IEEE MM 2018, Best Student Paper Award of IEEE MIPR 2019, and video-track Winner of Challenge on Learned Image Compression in IEEE DCC 2024. 
-              He serves as an Associate Editor for IEEE Transactions on Circuits and Systems for Video Technology and elected member of IEEE MSA and VSPC technical committee.
-            </p>
-          </div>
-        </div>
-
-        <!-- bio 3 -->
-        <div class="bio-item">
-          <img src="qmao.png" alt="Qi Mao">
-          <div>
-            <h3>Prof. Qi Mao</h3>
-            <p>
-              Qi Mao is a Professor at the Communication University of China. 
-              She holds a Ph.D. from Peking University and has enriched her research background through appointments at UC Merced and the National University of Singapore. 
-              Her expertise lies in intelligent media content generation and coding, with works published in leading venues such as IEEE TIP/TMM, CVPR, IJCV, ECCV, and SIGCOMM. 
-              Prof. Mao is highly active in the academic community, currently serving as an Area Chair for ICCV 2025, WACV 2026, CVPR 2026, and ICML 2026, and as the Short Paper and Demo Paper Co-Chair for ACM MM Asia 2025.
-            </p>
-          </div>
-        </div>
-
-        <!-- bio 4 -->
-        <div class="bio-item">
-          <img src="zmhuang.png" alt="Zhimeng Huang">
-          <div>
-            <h3>Dr. Zhimeng Huang</h3>
-            <p>
-              Zhimeng Huang is a Boya Postdoctoral Fellow in the Department of Computer Science at Peking University, where he also received his Ph.D. in 2024. 
-              His research interests include image and video compression, coding for machine, and machine learning. 
-              He has made active contributions to international and national standards, submitting more than 20 technical proposals to ISO/MPEG and AVS. 
-              Dr. Huang has published extensively in top-tier venues such as IEEE TIP, IEEE TCSVT, CVPR, and AAAI.
-            </p>
-          </div>
-        </div>
-
-      </div>
-
-
-      <!-- CFP 区块（蓝色盒子 + CMT 链接） -->
-      <h2>🔹 Call for Papers</h2>
-
-      <div style="
-        background:#f2f7ff;
-        padding:18px 22px;
-        border-radius:6px;
-        border-left:4px solid #0057B8;
-        line-height:1.65;
-        font-size:15.5px;
-        color:#222;
-      ">
-        We invite high-quality submissions to the ICME 2026 Special Session on
+      <div style="font-size:15px; color:#4f4f4f; line-height:1.65;">
+        We invite high-quality submissions to the ICME 2026 Special Session on 
         <b>Generative AI and Agents for Multimedia Coding, Processing, and Evaluation</b>.
-        Papers may address topics such as generative model–aware compression,
-        agentic multimedia systems, efficient multimodal representations,
-        and evaluation methodologies for AI-driven media processing.
-        <br><br>
-        Authors should follow the <b>ICME 2026 submission guidelines</b> and submit their papers through the official CMT system.
-        All accepted papers will be included in the ICME 2026 proceedings.
+        Papers may address generative model–aware compression, agentic multimedia systems,
+        efficient multimodal representations, and evaluation methodologies.  
+        All accepted papers will appear in the ICME 2026 proceedings.
       </div>
 
-      <div style="margin-top:14px;">
-        <a href="https://cmt3.research.microsoft.com/IEEEICME2026/" target="_blank"
-           style="
-             background:#0057B8;
-             color:#ffffff;
-             padding:9px 18px;
-             border-radius:6px;
-             text-decoration:none;
-             font-weight:600;
-             font-size:15px;
-             display:inline-block;
-           ">
-          🔗 ICME 2026 CMT Submission Website
-        </a>
-      </div>
-
-      <hr style="border:none; border-top:1px solid #e3e6f0; margin:26px 0;">
+    </div>
 
 
-      <!-- Dates -->
-      <h2>🔹 Important Dates</h2>
-      <div class="important-box">
-        <table>
-          <tr><td>📅 <b>Paper Submission</b></td><td><b>12 December 2025</b></td></tr>
-          <tr><td>💬 <b>Author Rebuttal Period</b></td><td><b>22 – 26 February 2026</b></td></tr>
-          <tr><td>📢 <b>Acceptance Notification</b></td><td><b>13 March 2026</b></td></tr>
-        </table>
-      </div>
+    <!-- Overview -->
+    <h2>🔹 Overview</h2>
+    <p>
+      The landscape of multimedia is undergoing a paradigm shift driven by the convergence of
+      Generative AI (e.g., diffusion models, autoregressive LLMs) and Agentic Systems
+      (e.g., tool-using, planning, multi-agent collaboration). These technologies are reshaping
+      visual data compression, processing, and evaluation. Traditional signal processing is evolving
+      toward model-centric paradigms, where large models act as priors for ultra-low bitrate coding
+      and enable autonomous workflow orchestration. This session explores how to bridge the gap
+      between generative intelligence and practical multimedia systems.
+    </p>
+
+    <hr>
 
 
-      <!-- Ack -->
-      <h2>🔹 Acknowledgment</h2>
-      <p>
-        This Special Session is organized under <b>IEEE ICME 2026</b> and welcomes contributions from 
-        the multimedia coding, vision, AI, and agentic systems communities. For general conference 
-        information, please refer to the ICME 2026 website:
-        <a href="https://2026.ieeeicme.org/" target="_blank">https://2026.ieeeicme.org/</a>. 
-      </p>
+    <!-- Topics -->
+    <h2>🔹 Topics of Interest</h2>
+    <p><b>Representative topics include, but are not limited to:</b></p>
+    <ul>
+      <li><b>Generative Coding &amp; Processing</b>: diffusion/LLM-driven reconstruction, enhancement, compression.</li>
+      <li><b>Agentic Media Workflows</b>: multi-agent generation, autonomous pipelines, tool-oriented media systems.</li>
+      <li><b>Efficient Representations</b>: semantics-aware tokens, prompt optimization, cross-modal embeddings.</li>
+      <li><b>Evaluation &amp; Benchmarking</b>: perceptual metrics, controllability, safety of AI-generated content.</li>
+    </ul>
 
-    </div> <!-- end EN content -->
+    <hr>
 
 
-    <!-- ================= ZH CONTENT ================= -->
-    <div id="content-zh" style="display:none;">
+    <!-- Organizers -->
+    <h2>🔹 Organizers</h2>
+    <table>
+      <tr><th>Name</th><th>Affiliation</th><th>Email</th></tr>
+      <tr><td><b>Shiqi Wang</b></td><td>City University of Hong Kong</td><td>shiqwang@cityu.edu.hk</td></tr>
+      <tr><td><b>Chuanmin Jia</b></td><td>Peking University</td><td>cmjia@pku.edu.cn</td></tr>
+      <tr><td><b>Qi Mao</b></td><td>Communication University of China</td><td>qimao@cuc.edu.cn</td></tr>
+      <tr><td><b>Zhimeng Huang</b></td><td>Peking University</td><td>zmhuang@pku.edu.cn</td></tr>
+    </table>
 
-      <!-- 标题区域（中文） -->
-      <div style="text-align:center; margin-bottom:26px;">
+    <h2>🔹 Organizer Biographies</h2>
 
-        <div style="
-          font-size:15px;
-          text-transform:uppercase;
-          letter-spacing:0.12em;
-          color:#0057B8;
-          font-weight:700;
-          margin-bottom:10px;">
-          征稿启事 · ICME 2026 特邀专题（Special Session）
+    <div class="bios-wrap">
+
+      <!-- bio 1 -->
+      <div class="bio-item">
+        <img src="sqwang.png" alt="Shiqi Wang">
+        <div>
+          <h3>Prof. Shiqi Wang</h3>
+          <p>
+            Shiqi Wang (Senior Member, IEEE) is a Professor at the Department of Computer Science, City University of Hong Kong. 
+            He received his Ph.D. from Peking University in 2014. An active contributor to standardization, he has proposed over 70 technical proposals to ISO/MPEG, ITU-T, and AVS. 
+            He has authored more than 400 refereed papers, including over 100 in IEEE Transactions. His research spans semantic/visual communication, AI-generated content (AIGC) management, and image/video quality assessment. 
+            Prof. Wang is a recipient of multiple Best Paper Awards (IEEE VCIP 2019, ICME 2019, IEEE Multimedia 2018, PCM 2017) and the IEEE ICIP 2018 Best Student Paper Award. 
+            He serves/served as an Associate Editor for IEEE TCSVT, TMM, TIP, and TCYB, and notably served as the TPC Chair of ICME 2024.
+          </p>
         </div>
-
-        <div style="
-          font-size:26px;
-          font-weight:800;
-          line-height:1.3;
-          color:#222;
-          margin-bottom:12px;">
-          面向多媒体编码、处理与评价的<br>
-          生成式人工智能与智能体
-        </div>
-
-        <div style="
-          width:90px; height:3px;
-          background:#0057B8;
-          margin:12px auto 0 auto;
-          border-radius:2px;"></div>
       </div>
 
-      <!-- 顶部 CFP 黄色卡片（中文） -->
-      <div style="
-        background:#fff3cd;
-        border-left:4px solid #ffca2c;
-        padding:16px 20px;
-        border-radius:6px;
-        margin-bottom:28px;">
-        
-        <div style="
-          font-size:18px;
-          font-weight:700;
-          color:#664d03;
-          margin-bottom:6px;">
-          📣 征稿启事
+      <!-- bio 2 -->
+      <div class="bio-item">
+        <img src="cmjia.png" alt="Chuanmin Jia">
+        <div>
+          <h3>Prof. Chuanmin Jia</h3>
+          <p>
+            Chuanmin Jia (Member, IEEE) is currently a tenure-track Assistant Professor at Wangxuan Institute of Computer Technology, Peking University. 
+            His research interests include intelligent video compression and processing. 
+            He is the recipient of the ACM SIGMM China Rising Star, Best Paper Award of PCM 2017 and IEEE MM 2018, Best Student Paper Award of IEEE MIPR 2019, and video-track Winner of Challenge on Learned Image Compression in IEEE DCC 2024. 
+            He serves as an Associate Editor for IEEE Transactions on Circuits and Systems for Video Technology and elected member of IEEE MSA and VSPC technical committee.
+          </p>
         </div>
-
-        <div style="font-size:15px; color:#4f4f4f; line-height:1.65;">
-          我们诚挚邀请广大学者向 ICME 2026 特邀专题 
-          <b>“Generative AI and Agents for Multimedia Coding, Processing, and Evaluation”</b>
-          投稿。欢迎围绕生成模型驱动的压缩与处理、智能体协同多媒体系统、高效多模态表示与评价方法等方向提交高质量原创工作。
-          所有录用论文将收录至 ICME 2026 会议论文集并收录至 IEEE Xplore。
-        </div>
-
       </div>
 
-      <!-- Overview 中文 -->
-      <h2>🔹 概述（Overview）</h2>
-      <p>
-        随着扩散模型、自回归大语言模型等生成式人工智能的发展，以及具备工具调用、规划与多智能体协同能力的智能体系统兴起，
-        多媒体内容的获取、编码、处理与评价正经历新一轮范式转变。传统以信号为中心的编码框架逐渐演化为以模型为中心：
-        大模型既可作为超低码率重建的强先验，也可作为端到端工作流中的“调度与决策大脑”。本特邀专题聚焦如何在实际系统中
-        将生成式智能与多媒体技术深度融合，并解决计算效率、可控性、可靠性等关键问题，推动新一代多媒体编码与智能体系统的落地。
-      </p>
+      <!-- bio 3 -->
+      <div class="bio-item">
+        <img src="qmao.png" alt="Qi Mao">
+        <div>
+          <h3>Prof. Qi Mao</h3>
+          <p>
+            Qi Mao is a Professor at the Communication University of China. 
+            She holds a Ph.D. from Peking University and has enriched her research background through appointments at UC Merced and the National University of Singapore. 
+            Her expertise lies in intelligent media content generation and coding, with works published in leading venues such as IEEE TIP/TMM, CVPR, IJCV, ECCV, and SIGCOMM. 
+            Prof. Mao is highly active in the academic community, currently serving as an Area Chair for ICCV 2025, WACV 2026, CVPR 2026, and ICML 2026, and as the Short Paper and Demo Paper Co-Chair for ACM MM Asia 2025.
+          </p>
+        </div>
+      </div>
 
-      <hr>
+      <!-- bio 4 -->
+      <div class="bio-item">
+        <img src="zmhuang.png" alt="Zhimeng Huang">
+        <div>
+          <h3>Dr. Zhimeng Huang</h3>
+          <p>
+            Zhimeng Huang is a Boya Postdoctoral Fellow in the Department of Computer Science at Peking University, where he also received his Ph.D. in 2024. 
+            His research interests include image and video compression, coding for machine, and machine learning. 
+            He has made active contributions to international and national standards, submitting more than 20 technical proposals to ISO/MPEG and AVS. 
+            Dr. Huang has published extensively in top-tier venues such as IEEE TIP, IEEE TCSVT, CVPR, and AAAI.
+          </p>
+        </div>
+      </div>
 
-      <!-- Topics 中文 -->
-      <h2>🔹 征稿主题（Topics of Interest）</h2>
-      <p><b>包括但不限于以下研究方向：</b></p>
-      <ul>
-        <li><b>生成式编码与处理</b>：基于扩散模型 / 大语言模型的重建、增强与新一代压缩方法。</li>
-        <li><b>智能体驱动的媒体工作流</b>：多智能体协同生成、自动化媒体管线与工具编排、智能体感知与决策。</li>
-        <li><b>高效语义表示</b>：语义感知 token、提示词与多模态嵌入的高效设计与传输。</li>
-        <li><b>评价与基准测试</b>：面向感知质量、可控性、安全性与可靠性的多媒体与 AIGC 评价方法与基准。</li>
-      </ul>
+    </div>
 
-      <hr>
 
-      <!-- Organizers 中文 -->
-      <h2>🔹 组织者（Organizers）</h2>
+    <!-- CFP 区块（蓝色盒子 + CMT 链接） -->
+    <h2>🔹 Call for Papers</h2>
+
+    <div style="
+      background:#f2f7ff;
+      padding:18px 22px;
+      border-radius:6px;
+      border-left:4px solid #0057B8;
+      line-height:1.65;
+      font-size:15.5px;
+      color:#222;
+    ">
+      We invite high-quality submissions to the ICME 2026 Special Session on
+      <b>Generative AI and Agents for Multimedia Coding, Processing, and Evaluation</b>.
+      Papers may address topics such as generative model–aware compression,
+      agentic multimedia systems, efficient multimodal representations,
+      and evaluation methodologies for AI-driven media processing.
+      <br><br>
+      Authors should follow the <b>ICME 2026 submission guidelines</b> and submit their papers through the official CMT system.
+      All accepted papers will be included in the ICME 2026 proceedings.
+    </div>
+
+    <div style="margin-top:14px;">
+      <a href="https://cmt3.research.microsoft.com/IEEEICME2026/" target="_blank"
+         style="
+           background:#0057B8;
+           color:#ffffff;
+           padding:9px 18px;
+           border-radius:6px;
+           text-decoration:none;
+           font-weight:600;
+           font-size:15px;
+           display:inline-block;
+         ">
+        🔗 ICME 2026 CMT Submission Website
+      </a>
+    </div>
+
+    <hr style="border:none; border-top:1px solid #e3e6f0; margin:26px 0;">
+
+
+    <!-- Dates -->
+    <h2>🔹 Important Dates</h2>
+    <div class="important-box">
       <table>
-        <tr><th>姓名</th><th>单位</th><th>邮箱</th></tr>
-        <tr><td><b>Shiqi Wang</b></td><td>City University of Hong Kong</td><td>shiqwang@cityu.edu.hk</td></tr>
-        <tr><td><b>Chuanmin Jia</b></td><td>Peking University</td><td>cmjia@pku.edu.cn</td></tr>
-        <tr><td><b>Qi Mao</b></td><td>Communication University of China</td><td>qimao@cuc.edu.cn</td></tr>
-        <tr><td><b>Zhimeng Huang</b></td><td>Peking University</td><td>zmhuang@pku.edu.cn</td></tr>
+        <tr><td>📅 <b>Paper Submission</b></td><td><b>12 December 2025</b></td></tr>
+        <tr><td>💬 <b>Author Rebuttal Period</b></td><td><b>22 – 26 February 2026</b></td></tr>
+        <tr><td>📢 <b>Acceptance Notification</b></td><td><b>13 March 2026</b></td></tr>
       </table>
-
-      <h2>🔹 组织者简介（Biographies）</h2>
-
-      <div class="bios-wrap">
-
-        <!-- bio 1 zh -->
-        <div class="bio-item">
-          <img src="sqwang.png" alt="Shiqi Wang">
-          <div>
-            <h3>王士琪 教授（Prof. Shiqi Wang）</h3>
-            <p>
-              王士琪，City University of Hong Kong 计算机系教授，IEEE 高级会员。2014 年于北京大学获得博士学位。
-              长期活跃于视频编码与标准化工作，在 ISO/MPEG、ITU-T、AVS 等标准组织提交技术提案 70 余项；
-              在 IEEE Transactions 等期刊和国际会议上发表论文 400 余篇（其中 IEEE 汇刊论文 100 余篇）。
-              研究方向包括语义/视觉通信、AIGC 内容管理、图像视频质量评价等。曾获 IEEE VCIP 2019、ICME 2019、
-              IEEE Multimedia 2018、PCM 2017 最佳论文奖以及 IEEE ICIP 2018 最佳学生论文奖，现/曾任 IEEE TCSVT、
-              TMM、TIP、TCYB 等期刊编委，并担任 ICME 2024 TPC Chair。
-            </p>
-          </div>
-        </div>
-
-        <!-- bio 2 zh -->
-        <div class="bio-item">
-          <img src="cmjia.png" alt="Chuanmin Jia">
-          <div>
-            <h3>贾传敏 教授（Prof. Chuanmin Jia）</h3>
-            <p>
-              贾传敏，IEEE 会员，北京大学王选计算机研究所长聘助理教授。主要研究方向为智能视频压缩与处理。
-              曾获 ACM SIGMM China Rising Star、PCM 2017 与 IEEE Multimedia 2018 最佳论文奖、IEEE MIPR 2019 最佳学生论文奖，
-              以及 IEEE DCC 2024 Learned Image Compression 挑战赛视频组冠军。现任 IEEE TCSVT 编委，并为 IEEE MSA 与 VSPC 技术委员会委员。
-            </p>
-          </div>
-        </div>
-
-        <!-- bio 3 zh -->
-        <div class="bio-item">
-          <img src="qmao.png" alt="Qi Mao">
-          <div>
-            <h3>毛琦 教授（Prof. Qi Mao）</h3>
-            <p>
-              毛琦，通信大学（Communication University of China）信息与通信工程学院教授。
-              毕业于北京大学，并先后在美国加州大学 Merced 分校和新加坡国立大学从事科研工作。
-              主要研究方向包括智能媒体内容生成与编码、多媒体通信与分析等，在 IEEE TIP/TMM、CVPR、IJCV、ECCV、SIGCOMM 等重要期刊与会议发表多篇论文。
-              现担任 ICCV 2025、WACV 2026、CVPR 2026、ICML 2026 等会议的 Area Chair，以及 ACM MM Asia 2025 Short Paper & Demo Chair 等职务。
-            </p>
-          </div>
-        </div>
-
-        <!-- bio 4 zh -->
-        <div class="bio-item">
-          <img src="zmhuang.png" alt="Zhimeng Huang">
-          <div>
-            <h3>黄志蒙 博士（Dr. Zhimeng Huang）</h3>
-            <p>
-              黄志蒙，北京大学计算机学院博雅博士后，2024 年于北京大学获得博士学位。
-              主要研究方向为图像/视频压缩、面向机器视觉的特征编码与机器学习。
-              在 ISO/MPEG 与 AVS 标准组织提交技术提案 20 余项，在 IEEE TIP、IEEE TCSVT、CVPR、AAAI 等顶级期刊与会议上发表多篇论文。
-            </p>
-          </div>
-        </div>
-
-      </div>
+    </div>
 
 
-      <!-- CFP 中文块 -->
-      <h2>🔹 投稿说明（Call for Papers）</h2>
-
-      <div style="
-        background:#f2f7ff;
-        padding:18px 22px;
-        border-radius:6px;
-        border-left:4px solid #0057B8;
-        line-height:1.65;
-        font-size:15.5px;
-        color:#222;
-      ">
-        欢迎提交与本特邀专题相关的原创研究工作，包括但不限于生成模型驱动的图像/视频压缩与重建、面向智能体的多媒体编码与通信、
-        面向大模型的语义/多模态表征压缩，以及新型评价指标与基准体系等。<br><br>
-        投稿需遵循 <b>ICME 2026 会议的统一投稿格式与要求</b>，通过官方 CMT 系统在线提交。
-        所有录用论文将收录于 ICME 2026 论文集，并收录至 IEEE Xplore。
-      </div>
-
-      <div style="margin-top:14px;">
-        <a href="https://cmt3.research.microsoft.com/IEEEICME2026/" target="_blank"
-           style="
-             background:#0057B8;
-             color:#ffffff;
-             padding:9px 18px;
-             border-radius:6px;
-             text-decoration:none;
-             font-weight:600;
-             font-size:15px;
-             display:inline-block;
-           ">
-          🔗 前往 ICME 2026 CMT 投稿系统
-        </a>
-      </div>
-
-      <hr style="border:none; border-top:1px solid #e3e6f0; margin:26px 0;">
-
-
-      <!-- Dates 中文 -->
-      <h2>🔹 重要日期（Important Dates）</h2>
-      <div class="important-box">
-        <table>
-          <tr><td>📅 <b>论文提交截止</b></td><td><b>12 December 2025</b></td></tr>
-          <tr><td>💬 <b>作者答辩（rebuttal）</b></td><td><b>22 – 26 February 2026</b></td></tr>
-          <tr><td>📢 <b>录用通知</b></td><td><b>13 March 2026</b></td></tr>
-        </table>
-      </div>
-
-
-      <!-- Ack 中文 -->
-      <h2>🔹 致谢与更多信息（Acknowledgment）</h2>
-      <p>
-        本特邀专题隶属于 <b>IEEE ICME 2026</b> 大会，面向多媒体编码、计算机视觉、人工智能与智能体系统等相关领域的研究者广泛征稿。
-        有关 ICME 2026 大会的整体安排与注册等信息，请参见大会官方网站：
-        <a href="https://2026.ieeeicme.org/" target="_blank">https://2026.ieeeicme.org/</a>。<br>
-        专题投稿请通过官方 CMT 系统完成：
-        <a href="https://cmt3.research.microsoft.com/IEEEICME2026/" target="_blank">https://cmt3.research.microsoft.com/IEEEICME2026/</a>。
-      </p>
-
-    </div> <!-- end ZH content -->
+    <!-- Ack -->
+    <h2>🔹 Acknowledgment</h2>
+    <p>
+      This Special Session is organized under <b>IEEE ICME 2026</b> and welcomes contributions from 
+      the multimedia coding, vision, AI, and agentic systems communities. For general conference 
+      information, please refer to the ICME 2026 website:
+      <a href="https://2026.ieeeicme.org/" target="_blank">https://2026.ieeeicme.org/</a>. 
+    </p>
 
   </div> <!-- end card -->
 </div> <!-- end page -->
-
-<script>
-  function switchLang(lang) {
-    var en = document.getElementById('content-en');
-    var zh = document.getElementById('content-zh');
-    var btnEn = document.getElementById('btn-en');
-    var btnZh = document.getElementById('btn-zh');
-
-    if (lang === 'en') {
-      en.style.display = 'block';
-      zh.style.display = 'none';
-      btnEn.classList.add('active');
-      btnZh.classList.remove('active');
-    } else {
-      en.style.display = 'none';
-      zh.style.display = 'block';
-      btnEn.classList.remove('active');
-      btnZh.classList.add('active');
-    }
-  }
-</script>
 
 </body>
 </html>
