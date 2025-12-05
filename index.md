@@ -1,8 +1,3 @@
----
-title: ICME 2026 Special Session
-layout: default
----
-
 # <span style="color:#0057B8;">ICME 2026 Special Session</span>  
 ## <span style="color:#333;">Generative AI and Agents for Multimedia Coding, Processing, and Evaluation</span>
 
@@ -30,8 +25,8 @@ The landscape of multimedia is undergoing a paradigm shift driven by the converg
 | Name | Affiliation | Email |
 |------|-------------|--------|
 | **Shiqi Wang** | City University of Hong Kong | shiqwang@cityu.edu.hk |
-| **Siwei Ma** | Peking University | swma@pku.edu.cn |
-| **Wen Gao** | Peking University | wgao@pku.edu.cn |
+| **Chuanmin Jia** | Peking University | cmjia@pku.edu.cn |
+| **Qi Mao** | Communication University of China | qimao@cuc.edu.cn |
 | **Zhimeng Huang** | Peking University | huangzm@pku.edu.cn |
 
 ---
