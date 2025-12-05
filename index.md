@@ -157,17 +157,8 @@ All accepted papers will appear in the ICME 2026 proceedings.
 ---
 
 
-
-## 🔹 Official Website
-
-For general information about ICME 2026, please visit:  
-[https://2026.ieeeicme.org/](https://2026.ieeeicme.org/)
-
-
----
-
 ## 🔹 Acknowledgment
 
-This Special Session is organized under IEEE ICME 2026 and welcomes contributions from the multimedia coding, vision, AI, and agentic systems communities.
+This Special Session is organized under IEEE ICME 2026 and welcomes contributions from the multimedia coding, vision, AI, and agentic systems communities. 
 
 ---
