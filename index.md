@@ -60,12 +60,14 @@ The landscape of multimedia is undergoing a paradigm shift driven by the converg
   <div style="flex:1;">
     <h3 style="margin-top: 0;">Dr. Chuanmin Jia</h3>
     <p style="font-size: 15px; line-height: 1.6;">
-      Chuanmin Jia is a Research Professor at the Digital Video Coding National Engineering 
-      Research Center, Peking University. His research interests include image/video compression, 
-      perceptual optimization, and multimedia systems. He has published extensively in IEEE Transactions 
-      and top-tier conferences, and contributed actively to the AVS standardization efforts. 
-      His work focuses on advancing human perception–aligned coding and practical multimedia applications in 
-      large-scale systems.
+      Chuanmin Jia (Member, IEEE) is a tenure-track Assistant Professor with the Wangxuan Institute of 
+      Computer Technology, Peking University. His research interests include intelligent video 
+      compression and processing. He is an elected member of the IEEE MSA and VSPC Technical Committees. 
+      Dr. Jia is a recipient of multiple honors, including the ACM SIGMM China Rising Star Award, 
+      the Best Paper Awards of PCM 2017 and IEEE Multimedia 2018, the Best Student Paper Award of 
+      IEEE MIPR 2019, and the Video Track Winner of the Challenge on Learned Image Compression 
+      at IEEE DCC 2024. He currently serves as an Associate Editor for the 
+      <i>IEEE Transactions on Circuits and Systems for Video Technology</i>.
     </p>
   </div>
 </div>
