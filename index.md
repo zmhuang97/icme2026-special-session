@@ -10,23 +10,18 @@ layout: default
 
 ## 🔹 Overview
 
-The rapid development of **foundation models**, **generative AI**, and **agentic multimedia systems** is reshaping how multimedia is coded, transmitted, and interpreted. Traditional pixel-oriented pipelines incur redundancy and inefficiency when interfacing with model-based inference.  
-This Special Session aims to explore **model-aware**, **semantic-aware**, and **agent-driven** multimedia coding paradigms that align compression with modern intelligent systems.
+The landscape of multimedia is undergoing a paradigm shift driven by the convergence of Generative AI (e.g., diffusion models, autoregressive LLMs) and Agentic Systems (e.g., tool-using, planning, and multi-agent collaboration). These technologies are fundamentally reshaping the methodology of visual data compression, processing, and evaluation. Traditional signal processing is evolving toward model-centric paradigms, where large models serve as powerful priors for ultra-low bitrate coding, and autonomous agents orchestrate complex workflows ranging from narrative creation to system optimization. However, bridging the gap between "generation" and "practical application" poses critical challenges in computational efficiency, fine-grained controllability, and reliability. This session aims to align AI advancements with the practical requirements of multimedia systems.
 
 ---
 
 ## 🔹 Topics of Interest
 
-This special session welcomes submissions on (but not limited to):
+**Representative topics include, but are not limited to:**
 
-- Generative model–aware image/video coding  
-- Latent/token compression for LLMs and VLMs  
-- Agentic multimedia pipelines across edge–cloud  
-- Semantic communication & coding for machine  
-- Representation alignment for vision–language models  
-- AIGC reconstruction, enhancement, and transformation  
-- Multi-agent perception, communication, and coordination  
-- Evaluation methodology for model-aware codecs  
+- **Generative Coding & Processing**: Leveraging diffusion models and LLMs for reconstruction, enhancement, and next-generation compression.
+- **Agentic Media Workflows**: Orchestrating multi-agent systems for coherent narrative generation, cinematic control, and autonomous pipeline management.
+- **Efficient Representations**: Investigating semantics-aware tokens, optimized prompts, and cross-modal embeddings to accelerate inference and transmission.
+- **Evaluation & Benchmarking**: Developing metrics for perceptual quality, fine-grained controllability (e.g., emotional accuracy), and safety in AI-generated content.
 
 ---
 
