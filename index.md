@@ -1,6 +1,7 @@
-<style>
-header.site-header { display: none !important; }
-</style>
+---
+layout: default
+title: ICME 2026 Special Session
+---
 
 <div style="width:100%; text-align:center; margin-bottom:20px;">
   <img src="icme26-bg-02-combined-01-1-scaled.webp" 
