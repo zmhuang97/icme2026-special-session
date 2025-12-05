@@ -58,7 +58,7 @@ The landscape of multimedia is undergoing a paradigm shift driven by the converg
 <div style="display: flex; align-items: flex-start; gap: 20px;">
   <img src="cmjia.png" alt="Chuanmin Jia" style="width:150px; border-radius: 6px;">
   <div style="flex:1;">
-    <h3 style="margin-top: 0;">Dr. Chuanmin Jia</h3>
+    <h3 style="margin-top: 0;">Prof. Chuanmin Jia</h3>
     <p style="font-size: 15px; line-height: 1.6;">
       Chuanmin Jia (Member, IEEE) is a tenure-track Assistant Professor with the Wangxuan Institute of 
       Computer Technology, Peking University. His research interests include intelligent video 
