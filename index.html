@@ -1,1 +1,361 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Call for Papers · ICME 2026 Special Session</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    :root {
+      --icme-blue: #0057B8;
+      --bg-light: #f3f5fb;
+      --card-bg: #ffffff;
+      --text-main: #222222;
+      --text-sub: #555555;
+    }
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: var(--bg-light);
+      color: var(--text-main);
+      line-height: 1.6;
+    }
+    .page {
+      max-width: 1100px;
+      margin: 32px auto 40px auto;
+      padding: 0 16px;
+    }
+    .card {
+      background: var(--card-bg);
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.04);
+      padding: 24px 22px 32px 22px;
+    }
+    @media (min-width: 900px) {
+      .card {
+        padding: 30px 36px 40px 36px;
+      }
+    }
+    h1, h2, h3 {
+      font-weight: 700;
+      margin-top: 0;
+      color: var(--text-main);
+    }
+    h1 {
+      font-size: 26px;
+      margin-bottom: 6px;
+      color: var(--icme-blue);
+    }
+    h2 {
+      font-size: 20px;
+      margin-top: 28px;
+      margin-bottom: 8px;
+    }
+    h3 {
+      font-size: 18px;
+      margin-bottom: 6px;
+    }
+    .subtitle {
+      font-size: 18px;
+      color: #333333;
+      margin-bottom: 20px;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #e1e4f0;
+      margin: 20px 0;
+    }
+    .section-title {
+      font-size: 18px;
+      font-weight: 600;
+      margin-top: 24px;
+      margin-bottom: 10px;
+    }
+    .pill {
+      display: inline-block;
+      padding: 3px 9px;
+      border-radius: 999px;
+      background: rgba(0,87,184,0.06);
+      color: var(--icme-blue);
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin-bottom: 6px;
+    }
+    ul {
+      padding-left: 20px;
+      margin-top: 6px;
+    }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+    .org-table th, .org-table td {
+      padding: 6px 4px;
+      border-bottom: 1px solid #e5e7f0;
+      text-align: left;
+      font-size: 14px;
+    }
+    .org-table th {
+      font-weight: 600;
+      color: var(--text-sub);
+    }
+    .badge {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 999px;
+      background: rgba(0,87,184,0.08);
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--icme-blue);
+      margin-left: 4px;
+    }
+    .important-box {
+      background: #f2f7ff;
+      padding: 16px 22px;
+      border-left: 4px solid var(--icme-blue);
+      border-radius: 6px;
+      font-size: 15px;
+    }
+    .important-box table {
+      width: 100%;
+      line-height: 1.65;
+    }
+    .important-box td {
+      padding: 4px 0;
+    }
+    .bios-wrap {
+      display: flex;
+      flex-direction: column;
+      gap: 28px;
+    }
+    .bio-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 20px;
+    }
+    .bio-item img {
+      width: 150px;
+      border-radius: 8px;
+      flex-shrink: 0;
+    }
+    .bio-text {
+      flex: 1;
+      font-size: 15px;
+      color: var(--text-sub);
+    }
+    @media (max-width: 640px) {
+      .bio-item {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .bio-item img {
+        width: 120px;
+      }
+    }
+    a {
+      color: var(--icme-blue);
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .banner-wrap {
+      width: 100%;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .banner-wrap img {
+      width: 100%;
+      max-width: 1400px;
+      border-radius: 10px;
+      display: block;
+      margin: 0 auto;
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <div class="banner-wrap">
+      <img src="icme26-bg-02-combined-01-1-scaled.webp" alt="ICME 2026 Banner">
+    </div>
+
+    <div class="card">
+      <div class="pill">Call for Papers · ICME 2026 Special Session</div>
+      <h1>ICME 2026 Special Session</h1>
+      <div class="subtitle">
+        Generative AI and Agents for Multimedia Coding, Processing, and Evaluation
+      </div>
+
+      <hr>
+
+      <h2>🔹 Overview</h2>
+      <p>
+        The landscape of multimedia is undergoing a paradigm shift driven by the convergence of Generative AI
+        (e.g., diffusion models, autoregressive LLMs) and Agentic Systems (e.g., tool-using, planning, and
+        multi-agent collaboration). These technologies are fundamentally reshaping the methodology of visual
+        data compression, processing, and evaluation. Traditional signal processing is evolving toward
+        model-centric paradigms, where large models serve as powerful priors for ultra-low bitrate coding,
+        and autonomous agents orchestrate complex workflows ranging from narrative creation to system
+        optimization. However, bridging the gap between "generation" and "practical application" poses
+        critical challenges in computational efficiency, fine-grained controllability, and reliability.
+        This session aims to align AI advancements with the practical requirements of multimedia systems.
+      </p>
+
+      <hr>
+
+      <h2>🔹 Topics of Interest</h2>
+      <p><b>Representative topics include, but are not limited to:</b></p>
+      <ul>
+        <li><b>Generative Coding &amp; Processing</b>: Leveraging diffusion models and LLMs for reconstruction,
+          enhancement, and next-generation compression.</li>
+        <li><b>Agentic Media Workflows</b>: Orchestrating multi-agent systems for coherent narrative generation,
+          cinematic control, and autonomous pipeline management.</li>
+        <li><b>Efficient Representations</b>: Investigating semantics-aware tokens, optimized prompts, and
+          cross-modal embeddings to accelerate inference and transmission.</li>
+        <li><b>Evaluation &amp; Benchmarking</b>: Developing metrics for perceptual quality, fine-grained
+          controllability (e.g., emotional accuracy), and safety in AI-generated content.</li>
+      </ul>
+
+      <hr>
+
+      <h2>🔹 Organizers</h2>
+      <table class="org-table">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Affiliation</th>
+            <th>Email</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><b>Shiqi Wang</b></td>
+            <td>City University of Hong Kong</td>
+            <td><a href="mailto:shiqwang@cityu.edu.hk">shiqwang@cityu.edu.hk</a></td>
+          </tr>
+          <tr>
+            <td><b>Chuanmin Jia</b></td>
+            <td>Peking University</td>
+            <td><a href="mailto:cmjia@pku.edu.cn">cmjia@pku.edu.cn</a></td>
+          </tr>
+          <tr>
+            <td><b>Qi Mao</b></td>
+            <td>Communication University of China</td>
+            <td><a href="mailto:qimao@cuc.edu.cn">qimao@cuc.edu.cn</a></td>
+          </tr>
+          <tr>
+            <td><b>Zhimeng Huang</b></td>
+            <td>Peking University</td>
+            <td><a href="mailto:zmhuang@pku.edu.cn">zmhuang@pku.edu.cn</a></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2>🔹 Organizer Biographies</h2>
+      <div class="bios-wrap">
+        <!-- Organizer 1 -->
+        <div class="bio-item">
+          <img src="sqwang.png" alt="Shiqi Wang">
+          <div class="bio-text">
+            <h3>Prof. Shiqi Wang</h3>
+            <p>
+              Shiqi Wang is a Professor at the Department of Computer Science, City University of Hong Kong.
+              He received his Ph.D. from Peking University in 2014. An active contributor to standardization,
+              he has proposed over 70 technical proposals to ISO/MPEG, ITU-T, and AVS. He has authored more
+              than 400 refereed papers, including over 100 in IEEE Transactions. His research spans
+              semantic/visual communication, AI-generated content (AIGC) management, and image/video quality
+              assessment. Dr. Wang is a recipient of multiple Best Paper Awards (IEEE VCIP 2019, ICME 2019,
+              IEEE Multimedia 2018, PCM 2017) and the IEEE ICIP 2018 Best Student Paper Award. He serves/served
+              as an Associate Editor for IEEE TCSVT, TMM, TIP, and TCYB, and notably served as the TPC Chair
+              of ICME 2024.
+            </p>
+          </div>
+        </div>
+
+        <!-- Organizer 2 -->
+        <div class="bio-item">
+          <img src="cmjia.png" alt="Chuanmin Jia">
+          <div class="bio-text">
+            <h3>Prof. Chuanmin Jia</h3>
+            <p>
+              Chuanmin Jia (Member, IEEE) is a tenure-track Assistant Professor with the Wangxuan Institute of
+              Computer Technology, Peking University. His research interests include intelligent video compression
+              and processing. He is an elected member of the IEEE MSA and VSPC Technical Committees. Dr. Jia is a
+              recipient of multiple honors, including the ACM SIGMM China Rising Star Award, the Best Paper Awards
+              of PCM 2017 and IEEE Multimedia 2018, the Best Student Paper Award of IEEE MIPR 2019, and the Video
+              Track Winner of the Challenge on Learned Image Compression at IEEE DCC 2024. He currently serves as
+              an Associate Editor for the <i>IEEE Transactions on Circuits and Systems for Video Technology</i>.
+            </p>
+          </div>
+        </div>
+
+        <!-- Organizer 3 -->
+        <div class="bio-item">
+          <img src="qmao.png" alt="Qi Mao">
+          <div class="bio-text">
+            <h3>Prof. Qi Mao</h3>
+            <p>
+              Qi Mao is a Professor at the School of Information and Communication Engineering.
+              His research includes video coding, media representation, AI-based media analysis, and
+              next-generation broadcasting technologies. He has led multiple national research projects
+              and published widely in IEEE Transactions and ACM multimedia venues. Prof. Mao has also
+              established strong collaborations with China's broadcasting industry through influential
+              applied research.
+            </p>
+          </div>
+        </div>
+
+        <!-- Organizer 4 -->
+        <div class="bio-item">
+          <img src="zmhuang.png" alt="Zhimeng Huang">
+          <div class="bio-text">
+            <h3>Dr. Zhimeng Huang</h3>
+            <p>
+              Zhimeng Huang is a Boya Postdoctoral Fellow at the Department of Computer Science, Peking University,
+              where he also received his Ph.D. in 2024. His research focuses on image/video compression, coding for
+              machine, and machine learning. He has contributed significantly to community standards, submitting
+              over 20 proposals to ISO/MPEG and AVS. Dr. Huang has authored or co-authored over 20 papers in
+              top-tier journals and conferences including IEEE TIP/TCSVT, CVPR and AAAI.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <h2>🔹 Important Dates</h2>
+      <div class="important-box">
+        <table>
+          <tr>
+            <td style="padding: 4px 0; white-space: nowrap;">📅 <b>Paper Submission</b></td>
+            <td style="padding: 4px 0;"><strong>12 December 2025</strong></td>
+          </tr>
+          <tr>
+            <td style="padding: 4px 0; white-space: nowrap;">💬 <b>Author Rebuttal Period</b></td>
+            <td style="padding: 4px 0;"><strong>22 – 26 February 2026</strong></td>
+          </tr>
+          <tr>
+            <td style="padding: 4px 0; white-space: nowrap;">📢 <b>Acceptance Notification</b></td>
+            <td style="padding: 4px 0;"><strong>13 March 2026</strong></td>
+          </tr>
+        </table>
+      </div>
+
+      <h2>🔹 Official Website</h2>
+      <p>
+        For general information about ICME 2026, please visit:<br>
+        <a href="https://2026.ieeeicme.org/" target="_blank">https://2026.ieeeicme.org/</a>
+      </p>
+
+      <h2>🔹 Acknowledgment</h2>
+      <p>
+        This Special Session is organized under IEEE ICME 2026 and welcomes contributions from the multimedia
+        coding, vision, AI, and agentic systems communities.
+      </p>
+    </div>
+  </div>
+</body>
+</html>
 
