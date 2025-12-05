@@ -110,6 +110,29 @@ The landscape of multimedia is undergoing a paradigm shift driven by the converg
 
 ---
 
+
+## 🔹 Call for Papers
+
+<div style="background:#f7f9ff; padding:18px 22px; border-radius:6px; border-left:4px solid #0057B8; line-height:1.65; font-size:16px;">
+We invite high-quality submissions to the ICME 2026 Special Session on  
+<b>Generative AI and Agents for Multimedia Coding, Processing, and Evaluation</b>.  
+Papers should present original research contributions related to generative model–aware compression, 
+agentic multimedia systems, efficient multimodal representations, and evaluation methodologies for AI-driven media processing.
+<br><br>
+Authors should follow the <b>ICME 2026 paper submission guidelines</b> and submit via the official CMT system.
+All accepted papers will appear in the ICME 2026 proceedings.
+</div>
+
+<div style="margin-top:12px;">
+<a href="https://2026.ieeeicme.org/" target="_blank"
+   style="background:#0057B8; color:#ffffff; padding:8px 16px; border-radius:6px; text-decoration:none; font-size:15px;">
+  🔗 ICME 2026 Submission Website
+</a>
+</div>
+
+---
+
+
 ## 🔹 Important Dates
 
 <div style="background: #f2f7ff; padding: 16px 22px; border-left: 4px solid #0057B8; border-radius: 6px; font-size: 16px;">
