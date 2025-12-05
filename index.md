@@ -1,5 +1,17 @@
-# <span style="color:#0057B8;">ICME 2026 Special Session</span>  
-## <span style="color:#333;">Generative AI and Agents for Multimedia Coding, Processing, and Evaluation</span>
+<div style="background:#0057B8; color:#ffffff; padding:18px 22px; border-radius:0 0 10px 10px; margin-bottom:24px;">
+  <div style="font-size:13px; letter-spacing:0.08em; text-transform:uppercase; opacity:0.9;">
+    IEEE International Conference on Multimedia and Expo (ICME) 2026
+  </div>
+  <div style="font-size:22px; font-weight:700; margin-top:4px;">
+    Special Session
+  </div>
+  <div style="font-size:13px; margin-top:2px; opacity:0.9;">
+    [City, Country] · July 2026
+  </div>
+</div>
+
+# <span style="color:#0057B8;">Generative AI and Agents for Multimedia Coding, Processing, and Evaluation</span>
+
 
 ---
 
