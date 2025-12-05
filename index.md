@@ -1,7 +1,14 @@
 ---
 layout: default
-title: "Call for Papers · ICME 2026 Special Session"
+title: ""
 ---
+
+<style>
+  /* Hide Cayman theme default header (title bar) */
+  header.page-header {
+      display: none !important;
+  }
+</style>
 
 
 <div style="width:100%; text-align:center; margin-bottom:20px;">
